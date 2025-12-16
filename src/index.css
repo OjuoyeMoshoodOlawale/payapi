@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  color: #36536b;
+  background-color: #edf3f8;
+}
+
+@layer base {
+  :root {
+    --dark-pink: #ba4270;
+    --link-water-white: #fbfcfe;
+    --san-juan-blue: #36536b;
+    --mirage-blue: #1b262f;
+    --charm-pink: #da6d97;
+    --light-san-juan-blue: #6c8294;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--light-san-juan-blue);
+    font-family: "Public Sans", sans-serif;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-family: "DM Serif Display";
+    font-size: 3.5rem;
+    line-height: 56px;
+    font-weight: 400;
+  }
+
+  h2 {
+    font-family: "DM Serif Display", serif;
+    font-size: 3rem;
+    line-height: 56px;
+    font-weight: 400;
+  }
+
+  h3 {
+    font-family: "DM Serif Display", serif;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 400;
+  }
+}
