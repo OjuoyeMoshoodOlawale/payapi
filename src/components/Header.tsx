@@ -3,11 +3,11 @@ import logo from "../assets/logo.png";
 export default function Header() {
   return (
     <nav className=" max-w-full flex justify-between items-center mt-1 mx-12">
-      <div className="flex  justify-between items-center gap-5">
+      <div className="flex  justify-between items-center gap-25">
         <div className="logo">
           <img src={logo} alt="" />
         </div>
-        <ul className="flex justify-between items-center gap-4">
+        <ul className="flex justify-between items-center gap-7">
           <li>
             <Link to="/"> Home </Link>
           </li>

@@ -10,11 +10,13 @@ function App() {
   return (
     <div className=" w-sreen">
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/pricing" element={<Pricing />} />
-      </Routes>
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/pricing" element={<Pricing />} />
+        </Routes>
+      </main>
       <Footer />
     </div>
   );

@@ -10,7 +10,7 @@ export default function OurClients() {
     <section className="w-full bg-(--mirage-blue) txt-white flex justify-center items-center gap-20 p-10 pl-50 pr-50 py-30">
       <div className="flex-1">
         <h2 className="text-white">Who we work with</h2>
-        <p className="text-white">
+        <p className="text-(--light-san-juan-blue) mt-8 text-justify leading-loose">
           Today, millions of people around the world have successfully connected
           their accounts to apps they love using our API. We provide developers
           with the tools they need to create easy and accessible experiences for
