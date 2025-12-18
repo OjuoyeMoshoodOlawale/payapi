@@ -1,5 +1,5 @@
 import hero_img from "../../../assets/hero-img.png";
-import DemoInput from "./DemoInput";
+import DemoInput from "../../../components/DemoInput";
 
 export default function Hero() {
   return (

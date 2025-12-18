@@ -56,3 +56,10 @@ body {
     margin: 4rem 0;
   }
 }
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: var(--light-san-juan-blue);
+  margin: 0;
+}
