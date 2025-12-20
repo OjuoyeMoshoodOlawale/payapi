@@ -14,7 +14,6 @@ export default function Contact() {
             <ContactForm />
           </div>
           <div className="flex-1">
-            5
             <Innovators />
           </div>
         </div>
