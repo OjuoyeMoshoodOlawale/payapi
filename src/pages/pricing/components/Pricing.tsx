@@ -4,7 +4,7 @@ export default function Pricing() {
   return (
     <section className="mx-25">
       <h1>Pricing</h1>
-      <div className="flex mt-15 gap-10">
+      <div className="flex mt-20 gap-10">
         <PricingItem
           plan="Free Plan"
           desciption="Build and test using our core set of products with up to 100 API requests "

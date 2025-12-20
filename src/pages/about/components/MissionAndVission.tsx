@@ -1,0 +1,37 @@
+export default function MissionAndVission() {
+  return (
+    <section>
+      <h1 className=" font-bold mx-20 mb-8 w-2/3">
+        We empower innovators by delivering access to the financial system
+      </h1>
+
+      <div className="flex ml-20 mr-45 my-15">
+        <div className="flex-1">
+          <h3>Our Vision</h3>
+        </div>
+        <div className="flex-2">
+          <p>
+            Our main goal is to build beautiful consumer experiences along with
+            developer-friendly infrastructure. The result is an intelligent tool
+            that gives everyone the ability to create amazing products that
+            solve big problems. We are deeply focused on democratizing financial
+            services through technology.
+          </p>
+        </div>
+      </div>
+      <div className="flex ml-20 mr-45">
+        <div className="flex-1">
+          <h3>Our Business</h3>
+        </div>
+        <div className="flex-2">
+          <p>
+            At the core of our platform is the technical infrastructure APIs
+            that connect consumers. Our innovative product provides key insights
+            for businesses and individuals, as well as robust reporting for
+            traditional financial institutions and developers.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}
