@@ -1,5 +1,6 @@
 import mark from "../../../assets/mark.png";
-export default function PricingItem({ plan, desciption, price }) {
+export default function PricingItem(props: any) {
+  const { plan, desciption, price } = props;
   return (
     <div className="flex-1 ">
       <h3 className="text-(--dark-pink)">{plan}</h3>
