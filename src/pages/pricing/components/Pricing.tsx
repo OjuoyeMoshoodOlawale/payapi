@@ -2,9 +2,23 @@ import PricingItem from "./PricingItem";
 
 export default function Pricing() {
   return (
-    <section className="mx-25">
-      <h1>Pricing</h1>
-      <div className="flex mt-20 gap-10">
+    <section
+      className="
+        mx-25
+        max-md:mx-4
+      "
+    >
+      <h1 className="max-md:text-center">Pricing</h1>
+
+      <div
+        className="
+          flex mt-20 gap-10
+          max-md:flex-col
+          max-md:items-center
+          max-md:mt-10
+          max-md:gap-6
+        "
+      >
         <PricingItem
           plan="Free Plan"
           desciption="Build and test using our core set of products with up to 100 API requests "

@@ -7,7 +7,7 @@ import tesla from "../../../assets/tesla.png";
 
 export default function OurClients() {
   return (
-    <section className="w-full bg-(--mirage-blue) txt-white flex justify-center items-center gap-20 p-10 pl-50 pr-50 py-30">
+    <section className="w-full bg-(--mirage-blue) txt-white flex flex-col-reverse md:flex-row justify-center items-center md:gap-20 p-10 md:pl-50 md:pr-50 md:py-30">
       <div className="flex-1">
         <h2 className="text-white">Who we work with</h2>
         <p className="text-(--light-san-juan-blue) mt-8 text-justify leading-loose">
