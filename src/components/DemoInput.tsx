@@ -8,7 +8,7 @@ export default function DemoInput() {
           className=" md:w-full h-10 bg-white rounded-full pl-5 pr-36 shadow-sm focus:outline-none"
         />
 
-        <button className="md:absolute  w-full max-sm:mt-5 max-sm:w-fit max-sm:mx-auto right-1 top-1 h-8 px-4 rounded-full bg-(--dark-pink) text-white text-sm hover:bg-pink-600 cursor-pointer">
+        <button className="md:absolute   max-sm:mt-5 max-sm:w-fit max-sm:mx-auto right-1 top-1 h-8 px-4 rounded-full bg-(--dark-pink) text-white text-sm hover:bg-pink-600 cursor-pointer">
           Schedule a Demo
         </button>
       </div>
